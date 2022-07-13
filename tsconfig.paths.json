@@ -1,0 +1,10 @@
+{
+  "compilerOptions" : {
+    "baseUrl": ".",
+    "paths" : {
+      "types" : [
+        "../animal-adoption-back/types"
+      ]
+    }
+  }
+}
