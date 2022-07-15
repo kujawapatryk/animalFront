@@ -1,0 +1,21 @@
+header{
+    background-color: cornflowerblue;
+    padding: 12px;
+    display: flex;
+}
+.navigation{
+    float: right;
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    /*align-content: space-around;*/
+}
+
+button{
+    border: 0 ;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 20%;
+    margin: 0 2em;
+}
+
