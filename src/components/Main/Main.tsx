@@ -4,6 +4,7 @@ import {Former} from "../RegistrationForm/form";
 import {Routes, Route} from 'react-router-dom';
 import {AnimalForm} from "../AnimalForm/AnimalForm";
 import {Animals} from "../animals/animals";
+import {Breeds} from "../animals/breeds";
 
 export const Main =() => {
     return(
@@ -14,6 +15,7 @@ export const Main =() => {
             <Route path="/addanimal" element={<AnimalForm/>}/>
         </Routes>
         <div className={'main'}></div>
+            <Breeds/>
             </>
     );
 

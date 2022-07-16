@@ -1,5 +1,6 @@
 import React, {SyntheticEvent, useState} from 'react';
 import {apiUrl} from "../../config/api";
+import {Breeds} from "../animals/breeds";
 
 
 
@@ -109,8 +110,8 @@ export const AnimalForm = () => {
                         type="number"
                         name="age"
                         required
-                        maxLength={30}
-                        minLength={0}
+                        max={30}
+                        min={0}
                         value={form.age}
                         onChange={e => updateForm('age', e.target.value)}
                     />
@@ -125,9 +126,10 @@ export const AnimalForm = () => {
                         value={form.breed}
                         onChange={e => updateForm('breed', e.target.value)}
                     >
-                        <option value="mieszaniec">Mieszaniec</option>
-                        <option value="husky">Husky</option>
-                        <option value="inne">Inne</option>
+                        {/*<option value="mieszaniec">Mieszaniec</option>*/}
+                        {/*<option value="husky">Husky</option>*/}
+                        {/*<option value="inne">Inne</option>*/}
+                        <Breeds/>
 
                     </select>
                 </label>
