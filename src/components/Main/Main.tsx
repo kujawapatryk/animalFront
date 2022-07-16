@@ -15,7 +15,7 @@ export const Main =() => {
             <Route path="/addanimal" element={<AnimalForm/>}/>
         </Routes>
         <div className={'main'}></div>
-            <Breeds/>
+
             </>
     );
 
