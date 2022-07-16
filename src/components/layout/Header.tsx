@@ -7,12 +7,12 @@ export const Header = () =>{
         <>
             <header>
                 <h1>Adoptuj zwierzaka</h1>
-                {/*<div className={'navigation'}>*/}
-                <button>Dodaj ogłoszenie</button>
+
+                <button><a href={'/addanimal'}>Dodaj ogłoszenie</a></button>
                 <button>Logowanie</button>
                 <button><a href={'/registration'}>Rejestracja</a>
                 </button>
-                {/*</div>*/}
+
             </header>
 
         </>
